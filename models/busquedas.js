@@ -10,7 +10,7 @@ class Busquedas {
         this.leerBd();
     }
 
-    get historialCapitalizado() {
+    get historialCapitalizado()  {
 
         return this.historial.map( lugar => {
             let palabras = lugar.split( ' ' );
