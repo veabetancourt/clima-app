@@ -9,7 +9,6 @@ class Busquedas {
     constructor() {
         this.leerBd();
     }
-
     get historialCapitalizado()  {
 
         return this.historial.map( lugar => {
